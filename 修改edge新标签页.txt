@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+; # Fake MDM-Enrollment - Key 1 of 2 - let a Win10 Machine "feel" MDM-Managed
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Enrollments\FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF] 
+"EnrollmentState"=dword:00000001 
+"EnrollmentType"=dword:00000000 
+"IsFederated"=dword:00000000
+
+; # Fake MDM-Enrollment - Key 2 of 2 - let a Win10 Machine "feel" MDM-Managed
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Provisioning\OMADM\Accounts\FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF]
+"Flags"=dword:00d6fb7f
+"AcctUId"="0x000000000000000000000000000000000000000000000000000000000000000000000000"
+"RoamingCount"=dword:00000000
+"SslClientCertReference"="MY;User;0000000000000000000000000000000000000000"
+"ProtoVer"="1.2"
+
+; # 修改下文中的 "about:blank" 为你想要展示的新标签页的地址
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\Recommended]
+"NewTabPageLocation"="file:///C:/Users/Shimakaze/Desktop/ccc/js/index.html"

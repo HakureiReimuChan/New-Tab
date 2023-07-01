@@ -5,7 +5,7 @@ function refreshTime() {
     const formattedString = dateString.replace(", ", " - ");
     timeDisplay.textContent = formattedString;
   }
-    setInterval(refreshTime, 200)
+    setInterval(refreshTime, 250)
 
 var datetime = new Date().toLocaleString();
 console.log(datetime);

@@ -4,16 +4,31 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
         <title>
             あさひ小姐的私人Tab
         </title>
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <h1 align="center" class="h1">
+        <ul class="nav nav-tabs">
+            <li><a href="" target= "_self">首页</a></li>
+            <li><a href="#tab2" target= "_self" data-toggle=tab>个人网站</a>
+                <ul class="nav nav-tabs">
+                    <li><a href="https://www.github.com/HakureiReimuChan" target= "_blank" data-toggle=tab>Github</a></li>
+                    <li><a href="https://twitter.com/HakureiReimu___" target= "_blank" data-toggle=tab>Twitter</a></li>
+                    <li><a href="https:/space.bilibili.com/352627086" target= "_blank" data-toggle=tab>Bilibili</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+
+        <h1 class="h1">
             <span id="time">
             </span>
         </h1>
+
         <link rel="stylesheet" href="css/1.css">
         <script src="index.js"></script>
     </head>
@@ -22,11 +37,11 @@
         <div class="header">
 
         </div>
-        <form target="_blank" method="get" action="https://www.bing.com/search">
+        <form target="_self" method="get" action="https://www.bing.com/search">
 			<input type="text" placeholder="请问今天要搜点什么吗?" name="q" class="text"/>
 			<input type="submit" value="搜索" class="search">
 		</form>
-        
+
         <script src="" async defer></script>
     </body>
 </html>

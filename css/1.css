@@ -1,0 +1,73 @@
+.h1{
+    text-align: center;
+    margin-top: 60px;
+    padding: 40px;
+    color: pink;
+}
+
+form{
+    text-align: center;
+}
+form .text {
+    display: inline-block;
+    margin-top: 45px;
+    border: 0;
+    width: 33.5%;
+    height: 35px;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid pink;
+}	
+form .search {
+    margin-top: 45px;
+    width: 90px;
+    height: 38px;
+    border: 2px solid pink;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: pink;
+    color: #FFFFFF;
+}
+
+.buttonf {
+    margin-top: 6%;
+    margin-left: 27%;
+    float: left;
+    width: 80px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+.buttonxs {
+    margin-top: 6%;
+    margin-left: 3%;
+    float: left;
+    width: 80px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+.buttonp {
+    background-color: rgba(255, 192, 203, 0.213);
+    color: pink;
+    border-radius: 30px;
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+.buttonp:hover {
+    background-color: rgba(255, 192, 203, 0.675);
+    color: pink;
+    border-radius: 30px;
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+.buttont {
+    background-color: rgba(255, 192, 203, 0);
+    color: pink;
+    border-radius: 30px;
+    height: 10px;
+    border: none;
+}

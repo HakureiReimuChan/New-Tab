@@ -1,0 +1,20 @@
+.txtr {
+    background-color: rgba(255, 192, 203, 0.5);
+    margin-top: 9%;
+    margin-left: 20%;
+    float: left;
+    width: 60%;
+    height: 300px;
+    line-height: 30px;
+    text-align: start;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+}
+.textr {
+    background-color: rgba(255, 192, 203, 0);
+    color: rgb(8, 6, 6);
+    border-radius: 30px;
+    height: 10px;
+    border: none;
+}
